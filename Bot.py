@@ -18,8 +18,8 @@ client = discord.Client()
 
 @client.event
 async def on_message(message):
-    if message.content.find("!nazi") == 0:
-        await message.channel.send("Hi Hitler")
+    if message.content.find("!hi") == 0:
+        await message.channel.send("Helloooo")
 
 
 client.run(token)
